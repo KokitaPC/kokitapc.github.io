@@ -1,0 +1,25 @@
+@import url(../style/default.css);
+
+h2{
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0)),url(../image/esports_h2.jpeg);
+    background-position: center;
+    color: white;
+}
+
+.esports_img{
+    margin-left: 2rem;
+}
+
+.esports_img div{
+    font-size: 0.7em;
+    color: gray;
+}
+
+.esports_img img{
+    width: 80%;
+    margin: 0;
+}
+
+
+
