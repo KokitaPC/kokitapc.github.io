@@ -1,0 +1,8 @@
+@import url(default.css);
+
+h2{
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0)),url(../image/index_h2.jpg);
+    background-position: center;
+    color: white;
+}
