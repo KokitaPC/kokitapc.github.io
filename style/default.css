@@ -111,28 +111,6 @@ main{
 
 }
 
-@media(max-width: 999px){
-    aside{
-        display: none;
-    }
-    article{
-        width: 100%;
-        font-size: 1rem;
-    }
-}
-
-@media(min-width: 1000px){
-    aside{
-        margin: 1rem;
-        width: 270px;
-    }
-    
-    article{
-        width: 80%;
-        font-size: 1rem;
-    }
-}
-
 .twitter-timeline{
     margin-left: 1rem;
 }
@@ -247,15 +225,35 @@ table caption,td,th{
 }
 
 @media(max-width: 999px){
-    aside{
+    aside.timeline{
+        display: none;
+    }
+    aside.twitterbutton{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    aside.twitterbutton img{
+        width: 100%;
+    }
+
+    footer{
         display: none;
     }
 }
 
 @media(min-width: 1000px){
-    .aside{
+    aside.timeline{
         margin: 1rem;
         width: 270px;
-        height: 100%;
     }
+    aside.twitterbutton{
+        display: none;
+    }
+}
+
+span.big{
+    color: #165925;
+    font-weight: bold;
 }
