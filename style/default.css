@@ -241,6 +241,11 @@ table caption,td,th{
     footer{
         display: none;
     }
+
+    article{
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
 @media(min-width: 1000px){
@@ -250,6 +255,11 @@ table caption,td,th{
     }
     aside.twitterbutton{
         display: none;
+    }
+
+    article{
+        width: 80%;
+        font-size: 1rem;
     }
 }
 
