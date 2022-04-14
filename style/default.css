@@ -267,3 +267,22 @@ span.big{
     color: #165925;
     font-weight: bold;
 }
+
+.kyochou{
+    color: #165925;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+div.html-code{
+    background-color: #292929;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: white;
+    padding: 0.3rem 1.2rem;
+    border-left: #43d96b solid 0.3rem;
+}
+
+div.html-code .red{
+    color: #ff7070;
+}
