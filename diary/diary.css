@@ -29,7 +29,13 @@ h2{
     display:flex;
 }
 
+.diary_body{
+    height: 7rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .diary_body img{
-    width: 30%;
+    width: 90%;
 }
 
