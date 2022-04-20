@@ -6,3 +6,9 @@ h2{
     background-position: center;
     color: white;
 }
+
+span.red-kyochou{
+    color: #bf0d0d
+    font-weight: bold;
+    font-size: 1.3rem;
+}
