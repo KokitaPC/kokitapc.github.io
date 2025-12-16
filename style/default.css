@@ -83,8 +83,8 @@ nav{
 nav a{
     display: inline-block;
     flex-wrap: wrap;
-    width: 7em;
-    padding: 0.7rem 2rem;
+    width: 25%;
+    padding: 0.7rem 0;
     text-align: center;
     border-right: #fff solid 0.1rem;
     color: #fff;
@@ -99,7 +99,7 @@ nav a:hover{
 @media(max-width: 999px){
     nav a{
         font-size: 1.4rem;
-        padding: 0.7rem 1rem;
+        padding: 0.7rem 0;
     }
 }
 
@@ -222,10 +222,15 @@ table caption,td,th{
     .big_img{
         display: none;
     }
+
+    .footerLink {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 999px){
-    aside.timeline{
+    /* aside.timeline{
         display: none;
     }
     aside.twitterbutton{
@@ -240,7 +245,7 @@ table caption,td,th{
 
     footer{
         display: none;
-    }
+    } */
 
     article{
         width: 100%;
